@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  border-top: 2px solid #d3d3d3;
+}
+
+.input {
+  border: none;
+  border-radius: 0;
+  padding: 5%;
+  width: 80%;
+  font-size: 1.2em;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.sendButton {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #2979ff;
+  padding: 20px;
+  display: inline-block;
+  border: none;
+  width: 20%;
+}
+.uploadButton {
+  cursor: pointer;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #4e01a3;
+  padding: 15px 14px 14px 14px;
+  display: inline-block;
+  border: 5px outset mediumslateblue;
+}
+
+.uploadImage {
+  width: 40px;
+}
